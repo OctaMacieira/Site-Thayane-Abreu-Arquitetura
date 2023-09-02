@@ -1,5 +1,105 @@
 body{
     background-color: bisque;
     color: brown;
-    font-family: 'montserrat-regular';
+    font-family: montserrat-regular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px auto;
+    font-family: montserrat-bold;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+}
+
+#formulario{
+    margin: 1px;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 10px auto;
+    font-family: montserrat-regular;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: montserrat-light;
+}
+
+img{
+    max-width: 450px;
+}
+
+a{
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;    
+}
+
+#requestBudget-btn{
+    border: 2px solid blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#requestBudget-btn:hover {
+    border: brown;
+    background-color: brown;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: brown;
+    color: white;
+    font-family: montserrat-bold;
+}
+
+form[type="submit"]:hover{
+    cursor:pointer;    
+}
+
+input{
+    margin: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
 }
